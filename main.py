@@ -22,6 +22,9 @@ def add (a, b):
     return a + b
 
 
+def new_func_subtract(a,b):
+    return a - b
+
 '''
 the password variable can be passed inside here
 this is an incomplete code, it is just an example
@@ -49,6 +52,8 @@ print("second line of testing code")
 # instead we can for example create another function that connects to the database,
 # that stores the password
 print(password)
+
+print(new_func_subtract( 8, 5))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
