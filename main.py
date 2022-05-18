@@ -1,3 +1,5 @@
+from secrets import  password
+
  # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -19,6 +21,16 @@ if __name__ == '__main__':
 def add (a, b):
     return a + b
 
+
+'''
+the password variable can be passed inside here
+this is an incomplete code, it is just an example
+'''
+# def connect_to_database():
+#     connector =
+
+
+
 # tracking the special variable __name__ to see how it changes b/w it's
 # given value and the python file/module called main
 print (__name__)
@@ -32,5 +44,11 @@ if  __name__ == "__main__" :
 print("Just another line of testing code")
 
 print("second line of testing code")
+
+# of course we will not want to print our passwrd variable here but,
+# instead we can for example create another function that connects to the database,
+# that stores the password
+print(password)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
