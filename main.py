@@ -21,9 +21,10 @@ if __name__ == '__main__':
 def add (a, b):
     return a + b
 
-
-def new_func_subtract(a,b):
-    return a - b
+# assuming my partner has access to my code and  makes a change to this function as agreed
+# she decides to add a third parameter "c" to the function
+def new_func_subtract(a,b,c):
+    return a - b - c
 
 '''
 the password variable can be passed inside here
@@ -53,7 +54,7 @@ print("second line of testing code")
 # that stores the password
 print(password)
 
-print(new_func_subtract( 8, 5))
+print(new_func_subtract( 8, 5, 1))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
