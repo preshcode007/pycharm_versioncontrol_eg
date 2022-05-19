@@ -57,4 +57,10 @@ print(password)
 print(new_func_subtract( 8, 5, 1))
 
 
+
+# for example, let us say we add another variable and then commit & push to github
+# and my partner melissa updates the same variable x on github, what happens next?
+
+x = 3
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
